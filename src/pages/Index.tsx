@@ -42,10 +42,21 @@ const Index = () => {
         <Section title="Work Experience">
           <ExperienceCard
             title="SOFTWARE ENGINEER"
-            company="INF Systems & Engineering (Thailand) Ltd."
-            period="Sep 2017 - Sep 2019"
+            company="Lightnet Group Thailand"
+            period="Jan 2024 - Present"
             description={[
-              "Maintenance and Develop System (LIMS) by using JAVA, JavaScript and Oracle, MS SQL Server database.",
+              "Develop and maintain blockchain-based remittance systems",
+              "Work with cross-functional teams to implement new features and improvements",
+            ]}
+          />
+          <ExperienceCard
+            title="Web Developer (FullStack)"
+            company="Choco Card Enterprise Co., Ltd."
+            period="Jan 2020 - Dec 2023"
+            description={[
+              "Develop System follow requirement of the company, Frontend (Reactjs ,Vuejs,Dotnet core C#)",
+              "Product (CDP platform)",
+              "Project (BRCM) Brand CRM System",
             ]}
           />
           <ExperienceCard
@@ -57,13 +68,11 @@ const Index = () => {
             ]}
           />
           <ExperienceCard
-            title="Web Developer (FullStack)"
-            company="Choco Card Enterprise Co., Ltd."
-            period="Jan 2020 - Present"
+            title="SOFTWARE ENGINEER"
+            company="INF Systems & Engineering (Thailand) Ltd."
+            period="Sep 2017 - Sep 2019"
             description={[
-              "Develop System follow requirement of the company, Frontend (Reactjs ,Vuejs,Dotnet core C#)",
-              "Product (CDP platform)",
-              "Project (BRCM) Brand CRM System",
+              "Maintenance and Develop System (LIMS) by using JAVA, JavaScript and Oracle, MS SQL Server database.",
             ]}
           />
         </Section>
