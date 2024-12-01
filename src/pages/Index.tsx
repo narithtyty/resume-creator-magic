@@ -1,11 +1,108 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import ProfileHeader from "@/components/ProfileHeader";
+import Section from "@/components/Section";
+import ExperienceCard from "@/components/ExperienceCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container max-w-4xl py-12">
+        <ProfileHeader
+          name="SOVANNARITH PHAN"
+          title="WEB Developer (FullStack)"
+          imageUrl="/lovable-uploads/467bf2be-abdc-46b7-93e3-6dc59da2ecd0.png"
+        />
+
+        <Section title="Personal Profile">
+          <p className="text-gray-700 leading-relaxed">
+            Extremely motivated to constantly develop my skills and grow
+            professionally. Learning from other person and practice it in our my
+            own way is the best way to learn.
+          </p>
+        </Section>
+
+        <Section title="Skills">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <li className="text-gray-700">
+              Java, JavaScript,Scala, PHP and C#
+            </li>
+            <li className="text-gray-700">
+              SQL Server, MySQL and Oracle Database
+            </li>
+            <li className="text-gray-700">
+              The ability to analyze complex technical information
+            </li>
+            <li className="text-gray-700">
+              jQuery, Vuejs, ReactJs and Angular
+            </li>
+            <li className="text-gray-700">NodeJS</li>
+            <li className="text-gray-700">Total Experience Job : 6 years</li>
+          </ul>
+        </Section>
+
+        <Section title="Work Experience">
+          <ExperienceCard
+            title="SOFTWARE ENGINEER"
+            company="INF Systems & Engineering (Thailand) Ltd."
+            period="Sep 2017 - Sep 2019"
+            description={[
+              "Maintenance and Develop System (LIMS) by using JAVA, JavaScript and Oracle, MS SQL Server database.",
+            ]}
+          />
+          <ExperienceCard
+            title="BACKEND DEVELOPER"
+            company="Lqid360"
+            period="Sep 2019 - Dec 2019"
+            description={[
+              "Develop System follow requirement of the company, using Scala and MongoDB",
+            ]}
+          />
+          <ExperienceCard
+            title="Web Developer (FullStack)"
+            company="Choco Card Enterprise Co., Ltd."
+            period="Jan 2020 - Present"
+            description={[
+              "Develop System follow requirement of the company, Frontend (Reactjs ,Vuejs,Dotnet core C#)",
+              "Product (CDP platform)",
+              "Project (BRCM) Brand CRM System",
+            ]}
+          />
+        </Section>
+
+        <Section title="Education">
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-bold text-primary mb-2">
+              PRINCE OF SONGKLA UNIVERSITY (THAILAND)
+            </h3>
+            <p className="text-gray-700">
+              Bachelor of Applied Mathematics | 2013-2107
+            </p>
+            <p className="text-gray-700">Grade : 3.40</p>
+          </div>
+        </Section>
+
+        <Section title="Get in Contact">
+          <div className="space-y-2 text-gray-700">
+            <p>Mobile: 0642471965</p>
+            <p>Email: phansovannarith@gmail.com</p>
+            <p>
+              Address: 31 Soi Ramkhamhaeng 22, Khwaeng Hua Mak, Khet Bang Kapi,
+              Krung Thep Maha Nakhon 10240
+            </p>
+          </div>
+        </Section>
+
+        <Section title="Other Activities">
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>Training Course (React Native) Feb- 2019</li>
+            <li>
+              Participate in competitions ACM-ICPC 2014 2015 and 2016 (Round
+              Southern region)
+            </li>
+            <li>
+              Participate in competitions ACM-ICPC 2016 (Round Thailand National)
+            </li>
+          </ul>
+        </Section>
       </div>
     </div>
   );
