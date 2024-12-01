@@ -35,7 +35,7 @@ const Index = () => {
               jQuery, Vuejs, ReactJs and Angular
             </li>
             <li className="text-gray-700">NodeJS</li>
-            <li className="text-gray-700">Total Experience Job : 6 years</li>
+            <li className="text-gray-700">Total Experience Job : 7+ years</li>
           </ul>
         </Section>
 
