@@ -8,7 +8,7 @@ const Index = () => {
       <div className="container max-w-4xl py-12">
         <ProfileHeader
           name="SOVANNARITH PHAN"
-          title="WEB Developer (FullStack)"
+          title="Software Engineer"
           imageUrl="/lovable-uploads/c61add5c-d8cc-48ee-bf46-f7538cd2e99f.png"
         />
 
@@ -23,7 +23,7 @@ const Index = () => {
         <Section title="Skills">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <li className="text-gray-700">
-              Java, JavaScript,Scala, PHP and C#
+              Java, JavaScript, TypeScript, Scala, PHP and C#
             </li>
             <li className="text-gray-700">
               SQL Server, MySQL and Oracle Database
@@ -50,7 +50,7 @@ const Index = () => {
             ]}
           />
           <ExperienceCard
-            title="Web Developer (FullStack)"
+            title="SOFTWARE ENGINEER"
             company="Choco Card Enterprise Co., Ltd."
             period="Jan 2020 - Dec 2023"
             description={[
