@@ -9,7 +9,7 @@ const Index = () => {
         <ProfileHeader
           name="SOVANNARITH PHAN"
           title="WEB Developer (FullStack)"
-          imageUrl="/lovable-uploads/185f794e-1201-4bb8-9456-f79044dd4861.png"
+          imageUrl="/lovable-uploads/c61add5c-d8cc-48ee-bf46-f7538cd2e99f.png"
         />
 
         <Section title="Personal Profile">
